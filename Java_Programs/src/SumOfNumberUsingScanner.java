@@ -2,7 +2,7 @@
   2. use the "nextInt" built in method of scanner class
   3. close the scanner class using "close" inbuilt method
   4. Find the sum and print 
-  5. While using scanner class we need to pass System.in parameter to scanner class object*/
+  5. While using scanner class we need to pass System.in parameter to scanner class constructor*/
 import java.util.Scanner;
 public class SumOfNumberUsingScanner {
 
