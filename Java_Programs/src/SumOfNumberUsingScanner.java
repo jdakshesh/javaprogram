@@ -10,6 +10,7 @@ public class SumOfNumberUsingScanner {
 		// TODO Auto-generated method stub
 		
 		SumOfNumberUsingScanner sumOfNumber = new SumOfNumberUsingScanner();
+		
 		sumOfNumber.inputNumber();
 
 
