@@ -1,4 +1,4 @@
-
+/*1. If modulus of number at the index i is zero than even else odd*/
 public class FindEvenOdd {
 
 	public static void main(String[] args) {
