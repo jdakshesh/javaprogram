@@ -3,6 +3,8 @@
   3. close the scanner class using "close" inbuilt method
   4. Find the sum and print 
   5. While using scanner class we need to pass System.in parameter to scanner class constructor*/
+package javaprogram;
+
 import java.util.Scanner;
 public class SumOfNumberUsingScanner {
 
