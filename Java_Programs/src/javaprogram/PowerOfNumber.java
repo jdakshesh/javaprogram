@@ -22,10 +22,12 @@ public class PowerOfNumber {
 	   int intialNumber = number; // to hold the inital value of number
 	   System.out.println("Enter the power");
 	   int power = sc.nextInt();
+	   sc.close();
 	   for(int i=1;i<power; i++)
 	   {
 		  number = intialNumber*number;
 	   }
 	   System.out.println(intialNumber +" to power " + power +" is:" +number);
+	   
    }
 }
