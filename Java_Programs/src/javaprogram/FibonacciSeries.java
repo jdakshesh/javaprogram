@@ -8,6 +8,7 @@ public class FibonacciSeries {
 		System.out.println("Enter the number");
 		Scanner sc = new Scanner(System.in);
 		int term = sc.nextInt();
+		sc.close();
 		int n1 =0;
 		int n2 =1;
 		int n3 =0;
