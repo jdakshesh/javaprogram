@@ -7,11 +7,11 @@ public class FibonacciSeries {
 	public static void main(String[] args) {
 		System.out.println("Enter the number");
 		Scanner sc = new Scanner(System.in);
-		int number = sc.nextInt();
+		int term = sc.nextInt();
 		int n1 =0;
 		int n2 =1;
 		int n3 =0;
-		for(int i=0;i<number;i++)
+		for(int i=0;i<term;i++)
 		{
 			
 			System.out.print(n1 + " ");
