@@ -1,3 +1,6 @@
+/*An Armstrong number is a number that is equal to the sum of its digits 
+ each raised to the power of the number of digits. 
+ For example, 153 is an Armstrong number because 1³ + 5³ + 3³ = 153. */
 package javaprogram;
 
 import java.util.Scanner;
