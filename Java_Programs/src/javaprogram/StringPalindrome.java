@@ -8,17 +8,18 @@ public class StringPalindrome {
 	}
 
 	public void stringPalindromeCheck() {
-		String str = "MOM";
+		String str ="MOON";
 		String revStr = "";
 		char[] ch = str.toCharArray();
-		for (int i = ch.length - 1; i >= 0; i--) {
-			revStr = revStr + ch[i];
+		for(int i=ch.length-1;i>=0;i--)
+		{
+			revStr = revStr+ch[i];
 		}
-		if(str.equals(revStr))
-		System.out.println(str+ " is palindorme");
 		
+		if(revStr.equals(str))
+			System.out.println(str+" is palindrome");
 		else
-			System.out.println(str+ " is not palindorme");
+			System.out.println(str+" is not palindrome");
 	}
 
 }

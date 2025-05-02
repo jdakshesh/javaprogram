@@ -1,25 +1,27 @@
 package javaprogram;
 
+import java.util.Scanner;
+
 public class NumberPalindrome {
 	
 	public static void main(String[] args) {
-		int orginalnumber =1221;
-		int temp =orginalnumber;
-		int revnumber = 0;
-		int remainder;
-		while(temp>0)
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int number = sc.nextInt();
+		int OriginalNumber = number;
+		int revNumber = 0;
+		sc.close();
+		while(number>0)
 		{
-			remainder =temp%10;
-			revnumber = revnumber*10+remainder;
-			temp =temp/10;
-		}
-		if(revnumber==orginalnumber)
-		{
-			System.out.println(orginalnumber+ " palindrome");
-		}
-		else
-			System.out.println(orginalnumber+ " is not palindrome");
+			int remainder = number%10;
+			revNumber = revNumber*10 + remainder;
+			number = number/10;
 			
+		}
+		if(revNumber==OriginalNumber)
+			System.out.println(OriginalNumber+" is a palindrome number");
+		else
+			System.out.println(OriginalNumber+" is not a palindrome number");
 	}
 
 
