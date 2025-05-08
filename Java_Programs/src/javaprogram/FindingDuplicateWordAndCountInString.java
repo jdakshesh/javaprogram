@@ -7,9 +7,9 @@ public class FindingDuplicateWordAndCountInString {
 
 	public static void main(String[] args) {
 		String str = "This is a test, This test is only a test";
-		String[] words = str.toLowerCase().trim().split(" ");;
+		String[] words = str.toLowerCase().trim().split(" ");
 		HashMap<String,Integer> duplicateWord = new HashMap<String,Integer>();
-		int count = 1;
+		
 		for(String word: words)
 		{
 			if(duplicateWord.containsKey(word))
