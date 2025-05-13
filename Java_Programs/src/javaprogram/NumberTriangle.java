@@ -1,6 +1,6 @@
 package javaprogram;
 
-public class NumberTrianglePatternPyramid {
+public class NumberTriangle {
 
 	public static void main(String[] args) {
 		//outer loop for number of rows
