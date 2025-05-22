@@ -34,6 +34,8 @@ public class FindingIfCharIsVowel {
 		{
 			System.out.println(ch+ " is constant");
 		}
+		
+		scanner.close();
 	}
 	
 
