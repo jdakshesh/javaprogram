@@ -11,11 +11,12 @@ No need to be case sensitive*/
 
 package javaprogram;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class ToCheckAnagramStringUsingCollections {
+public class FindAanagramStringUsingSorting {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -37,32 +38,11 @@ public class ToCheckAnagramStringUsingCollections {
 			sc.close();
 		}
 		public static boolean isAnagram(String str1, String str2) {
-			Map<Character,Integer> map1 = new HashMap<Character,Integer>();
-			Map<Character,Integer> map2 = new HashMap<Character,Integer>();
-			for(Character ch:str1.toCharArray())
-			{
-				if(map1.containsKey(ch))
-				{
-					map1.put(ch, map1.get(ch)+1);
-				}
-				else
-				{
-					map1.put(ch, 1);
-				}
-			}
-			for(Character ch:str2.toCharArray())
-			{
-				if(map2.containsKey(ch))
-				{
-					map2.put(ch, map2.get(ch)+1);
-				}
-				else
-				{
-					map2.put(ch, 1);
-				}
-			}
-			return map1.equals(map2);
-			
+			char[] ch1 =str1.toCharArray();
+			char[] ch2 =str2.toCharArray();
+			Arrays.sort(ch1);
+			Arrays.sort(ch2);
+			return Arrays.equals(ch1, ch2);
 		}
 		
 	}
