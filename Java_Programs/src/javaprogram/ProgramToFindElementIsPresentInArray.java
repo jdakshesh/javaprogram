@@ -25,7 +25,7 @@ public class ProgramToFindElementIsPresentInArray {
 			System.out.println(searchNumber+" is present not in the array");
 			
 		}
-		
+		sc.close();
 	}
 
 }

@@ -40,7 +40,7 @@ public class FindingDuplicateCharacterInString2 {
 				System.out.println("The duplicate character is "+ cr+" and count is "+ map.get(cr));
 			}
 		}
-
+			sc.close();
 	}
 
 }

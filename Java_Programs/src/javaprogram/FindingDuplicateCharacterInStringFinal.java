@@ -33,7 +33,7 @@ public class FindingDuplicateCharacterInStringFinal {
 				System.out.println("The duplicate character is "+ c + " and count is "+map.get(c) );
 			}
 		}
-		
+		sc.close();
 	}
 
 }
